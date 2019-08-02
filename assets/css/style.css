@@ -191,8 +191,34 @@ input[type=submit] {
     background-color: #4aaaa5;
     border: 0 none;
     color: #ffffff;
-    font-size 18px;
+    font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .container {
+        padding: 0 20px;
+        max-width: 768px;
+    }
+
+
+    #main-container {
+        padding-top: 130px;
+    }
+
+    .main-section {
+        max-width: 420px;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
