@@ -159,6 +159,10 @@ footer {
     font-weight: 300;
 }
 
+.thumb {
+    width: 275px;
+    height: 250px;
+}
 
 /*Begin Contact*/
 #contact-form ul {
